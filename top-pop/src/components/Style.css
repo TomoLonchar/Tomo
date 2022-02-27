@@ -1,0 +1,178 @@
+
+h1 {
+    background-color: #14181f;
+    color:#e6e6e6;
+    font-family: Courier;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    
+}
+
+html > body {
+    box-sizing: border-box;
+    font-family: Courier;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.display {
+    padding: 10px 10px 10px 10px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);   
+}
+
+.hideDetails {
+    display: none;
+}
+
+.showDetails {
+    display: block;
+}
+
+.DetailsM {
+    background-color: #e6e6e6;
+    margin: 15% auto;
+    padding: 0px;
+    border: 2px solid #14181f;
+    width: 25%;
+    font-weight: bold;
+}
+
+.DetailsM p {
+
+   margin: 15px 15px 15px 15px;
+
+}
+
+.closeDetails {
+    color: #e6e6e6;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.closeDetails:hover, .closeDetails:focus {
+    color: #e6e6e6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.detailsTitle {
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li {
+    transition: font-size 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+li:hover, li:focus {
+
+    background-color: #14181f;
+    color:#e6e6e6;
+    cursor: pointer;
+}
+
+.float-right {
+    display: block;
+    float:right;
+}
+
+.list {
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#root {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background-color: #e6e6e6;
+    border: 2px solid #14181f;
+    font-weight: bold;
+}
+
+.detailsTitle {
+    color: #e6e6e6;
+    font-weight: bold;
+    
+}
+
+.subtitle-font {
+    font-size: 3rem;
+    color: #e6e6e6;;
+    font-weight: bold;
+}
+
+.header {
+    margin: 0;
+    
+}
+
+span {
+
+    font-size: 1.25rem;
+    font-family: Courier;
+    font-weight: bold;
+   
+}
+
+label {
+
+    font-size: 1.25rem;
+    font-family: Courier;
+    font-weight: bold;
+   
+}
+
+option {
+
+    font-size: 1rem;
+    font-family: Courier;
+    font-weight: bold;
+   
+}
+
+select 
+{
+
+    font-size: 1rem;
+    font-family: Courier;
+    font-weight: bold;
+    background-color: #14181f;
+    color:#e6e6e6;
+    font-family: Courier;
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+@media only screen and (max-width: 700px) {
+    #root {
+        width: 100%;
+    }
+}
